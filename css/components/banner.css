@@ -1,0 +1,28 @@
+.banner {
+	height: 750px;
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(../../images/banner_edited.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#logo {
+	margin: 0px;
+}
+.banner h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 50px;
+   margin-left: 0px;
+}
+.banner h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}

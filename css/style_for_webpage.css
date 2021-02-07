@@ -1,0 +1,65 @@
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/picture.css");
+@import url("components/cards.css");
+@import url("components/form.css");
+@import url("components/media.css");
+body {
+ font-family: 'Lora', serif;
+}
+h1 {
+ margin: 50px;
+ font-size:;
+ font-family: 'Yusei Magic', sans-serif; 
+ color: ;
+}
+h2 {
+  margin: 50px;
+  margin-left: 70px;
+  font-size: 25px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 50px;
+  font-family: 'Lora', serif;
+}
+p {
+	 font-family: 'Lora', serif;
+	 margin: 50px;
+}
+.founder {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px;       
+	margin: 40px;                    
+	border-radius: 5px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	width: 500px;
+}
+.founder img {
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+.founder h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.founders {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+a {
+
+	font-family: 'Roboto', sans-serif; 
+	text-decoration: none;
+	color:#80BDAB;
+	text-align: center; 
+	font-size: 40px;
+}
+a:hover{
+	    opacity: 0.8;
+}
